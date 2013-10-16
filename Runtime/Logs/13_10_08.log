@@ -1,0 +1,99 @@
+[ 2013-10-08T16:16:00+08:00 ] 127.0.0.1 /
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008225s ]
+
+[ 2013-10-08T16:16:00+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.060555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.025595s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.122594s ]
+
+[ 2013-10-08T16:16:47+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.032618s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.006309s ]
+
+[ 2013-10-08T16:24:36+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.001326s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.000373s ]
+
+[ 2013-10-08T16:25:06+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.018361s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.001662s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN (1,2) )  [ RunTime:0.007916s ]
+ERR: Action:getCardInfo您所请求的方法不存在！
+
+[ 2013-10-08T16:25:27+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.012160s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.001752s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN (1,2) )  [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.013018s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_evaluation [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.002008s ]
+
+[ 2013-10-08T16:30:05+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.030848s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.001607s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN (1,2) )  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_evaluation [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001123s ]
+
+[ 2013-10-08T19:58:31+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.001234s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.001184s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN (1,2) )  [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_evaluation [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001295s ]
+

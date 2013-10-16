@@ -1,0 +1,221 @@
+[ 2013-10-14T15:05:43+08:00 ] 127.0.0.1 /
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000119s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+
+[ 2013-10-14T15:05:48+08:00 ] 127.0.0.1 /index/welcome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_cms_index [ RunTime:0.080949s ]
+SQL: SELECT * FROM monkey.t_monkey_cms_index WHERE ( status=1 ) ORDER BY weight DESC  [ RunTime:0.025978s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.087095s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN (1,2) )  [ RunTime:0.024815s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.045051s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.025368s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_evaluation [ RunTime:0.018015s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.008419s ]
+
+[ 2013-10-14T15:06:02+08:00 ] 127.0.0.1 /coupon/coupon
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.002144s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE (  1 = 1 )  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.023828s ]
+ERR: Model:getPartnerById您所请求的方法不存在！
+
+[ 2013-10-14T18:32:37+08:00 ] 127.0.0.1 /coupon/coupon
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.030351s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE (  1 = 1 )  [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001543s ]
+SQL: SELECT * FROM monkey.t_monkey_partner_info WHERE ( partner_id IN (1,2) )  [ RunTime:0.039359s ]
+
+[ 2013-10-14T18:36:08+08:00 ] 127.0.0.1 /coupon/coupon
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.013139s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE (  1 = 1 )  [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001480s ]
+SQL: SELECT * FROM monkey.t_monkey_partner_info WHERE ( partner_id IN (1,2) )  [ RunTime:0.000235s ]
+
+[ 2013-10-14T18:36:28+08:00 ] 127.0.0.1 /coupon/coupondetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.001936s ]
+
+[ 2013-10-14T18:36:40+08:00 ] 127.0.0.1 /coupon/coupondetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.013971s ]
+
+[ 2013-10-14T18:36:48+08:00 ] 127.0.0.1 /coupon/coupondetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.001535s ]
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed /Users/linhuazhu/getCode/huiguilin/public/Lib/Model/CouponModel.class.php 第 13 行.
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN () )  [ RunTime:0.015194s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN () ) 
+
+[ 2013-10-14T18:37:03+08:00 ] 127.0.0.1 /coupon/coupondetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011773s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.011576s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN (1) )  [ RunTime:0.000447s ]
+
+[ 2013-10-14T18:39:10+08:00 ] 127.0.0.1 /coupon/coupondetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008604s ]
+INFO: [ route_check ] --END-- [ RunTime:0.024802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_coupon_info [ RunTime:0.001869s ]
+SQL: SELECT * FROM monkey.t_monkey_coupon_info WHERE ( coupon_id IN (1) )  [ RunTime:0.000332s ]
+
+[ 2013-10-14T18:39:26+08:00 ] 127.0.0.1 /partner/partner?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.002581s ]
+NOTIC: [8] Undefined variable: couponHelper /Users/linhuazhu/getCode/huiguilin/public/Lib/Action/partnerAction.class.php 第 7 行.
+
+[ 2013-10-14T18:40:05+08:00 ] 127.0.0.1 /partner/partner?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018986s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.002078s ]
+SQL: SELECT * FROM monkey.t_monkey_partner_info WHERE (  1 = 1 )  [ RunTime:0.000294s ]
+
+[ 2013-10-14T18:40:14+08:00 ] 127.0.0.1 /partner/partnerdetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001619s ]
+
+[ 2013-10-14T18:40:37+08:00 ] 127.0.0.1 /partner/partnerdetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.002440s ]
+SQL: SELECT * FROM monkey.t_monkey_partner_info WHERE ( partner_id IN (1) )  [ RunTime:0.000270s ]
+
+[ 2013-10-14T18:41:08+08:00 ] 127.0.0.1 /partner/partnerdetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+
+[ 2013-10-14T18:41:18+08:00 ] 127.0.0.1 /partner/partnerdetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.015818s ]
+SQL: SELECT * FROM monkey.t_monkey_partner_info WHERE ( partner_id IN (1) )  [ RunTime:0.000319s ]
+
+[ 2013-10-14T18:41:53+08:00 ] 127.0.0.1 /membership/partnerdetail?id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+ERR: 非法操作:partnerdetail
+
+[ 2013-10-14T18:42:01+08:00 ] 127.0.0.1 /membership/membership
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.016564s ]
+NOTIC: [8] Undefined variable: couponHelper /Users/linhuazhu/getCode/huiguilin/public/Lib/Action/membershipAction.class.php 第 7 行.
+
+[ 2013-10-14T18:42:16+08:00 ] 127.0.0.1 /membership/membership
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.013254s ]
+SQL: SELECT * FROM monkey.t_monkey_membership_card WHERE (  1 = 1 )  [ RunTime:0.038291s ]
+
+[ 2013-10-14T18:42:25+08:00 ] 127.0.0.1 /membership/membership
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.001411s ]
+SQL: SELECT * FROM monkey.t_monkey_membership_card WHERE (  1 = 1 )  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001339s ]
+SQL: SELECT * FROM monkey.t_monkey_partner_info WHERE ( partner_id IN (1) )  [ RunTime:0.000250s ]
+
+[ 2013-10-14T18:42:33+08:00 ] 127.0.0.1 /membership/membership
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_membership_card [ RunTime:0.001364s ]
+SQL: SELECT * FROM monkey.t_monkey_membership_card WHERE (  1 = 1 )  [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM monkey.t_monkey_partner_info [ RunTime:0.001606s ]
+SQL: SELECT * FROM monkey.t_monkey_partner_info WHERE ( partner_id IN (1) )  [ RunTime:0.000448s ]
+
