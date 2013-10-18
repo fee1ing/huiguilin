@@ -8,6 +8,6 @@ header ( "Expires: Sat, 26 Jul 1997 05:00:00 GMT" );
 header ( 'Content-Type: text/html; charset=utf-8' );
 ini_set("display_errors", '1');
 define('APP_DEBUG',TRUE); // 开启调试模式
-include_once "/Users/linhuazhu/getCode/ThinkPHP/ThinkPHP.php";
+include_once __DIR__ . "/ThinkPHP/ThinkPHP.php";
 
 return TRUE;
